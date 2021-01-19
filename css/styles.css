@@ -1,0 +1,38 @@
+/* =====================task-03================ */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+#gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.picture {
+  display: block;
+  width: 30vw;
+  height: 100%;
+}
+/* ====================task-04========================== */
+#counter {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+}
+/* =================task-06==================== */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+/* ========================================= */
