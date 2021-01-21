@@ -21,8 +21,7 @@ function randColor() {
   let r = Math.floor(Math.random() * 256);
   let g = Math.floor(Math.random() * 256);
   let b = Math.floor(Math.random() * 256);
-  let result = `rgb(${r}, ${g}, ${b})`;
-  return result;
+  return `rgb(${r}, ${g}, ${b})`;
 }
 
 function createBoxes(amount) {
@@ -44,8 +43,9 @@ function destroyBoxes() {
 }
 
 renderRef.addEventListener('click', () => {
-  inputRef.value == 0 ? alert('Введите количество квадратов') : '';
-  createBoxes(inputRef.value);
+  inputRef.value == 0
+    ? alert('Введите количество квадратов')
+    : createBoxes(inputRef.value);
 });
 destroyRef.addEventListener('click', () => {
   destroyBoxes();
